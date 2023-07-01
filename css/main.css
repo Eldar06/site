@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 70%;
+    padding: 50xp;
+    margin: auto;
+    background-color: azure;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 2px 4px 20px;
+}
+body{
+    background-color: darkgreen;
+}
+.box{
+    width: calc(50% - 40px);
+    height: calc((35vw - 40px)/16 * 9);
+    margin: 20px;
+    background-color: coral;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.box:hover{
+    box-shadow: 2px 4px 40px;
+    transform: scale(1.1);
+    filter: grayscale();
+}
+.box:active{
+    transform: scale(1.8);
+    filter: none;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 64px;
+}
+a{
+    margin-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 30px;
+    transition: all 0.3s ease;
+    border: 10px solid;
+    cursor: pointer;
+}
+.a:hover{
+    box-shadow: 0 0 10px 2px;
+}
+.photo1{
+    background-image: url(../img/11.webp);
+}
+.photo2{
+    background-image: url(../img/12.webp);
+}
+.photo3{
+    background-image: url(../img/13.webp);
+}
+.photo4{
+    background-image: url(../img/14.webp);
+}
+.photo5{
+    background-image: url(../img/15.webp);
+}
+.photo6{
+    background-image: url(../img/16.webp);
+}
+.photo7{
+    background-image: url(../img/17.webp);
+}
+.photo8{
+    background-image: url(../img/18.webp);
+}
+.photo9{
+    background-image: url(../img/19.webp);
+}
+.photo10{
+    background-image: url(../img/110.webp);
+}
+.photo11{
+    background-image: url(../img/111.webp);
+}
+.photo12{
+    background-image: url(../img/112.webp);
+}
+a{
+    margin-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 30px;
+    transition: all 0.3s ease;
+    border: 10px solid;
+    cursor: pointer;
+}
+.a:hover{
+    box-shadow: 0 0 10px 2px;
+}

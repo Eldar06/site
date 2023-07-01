@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/Tank.jpg);
+    background-size: cover;
+}
+div{
+    width: 70%;
+    background-color: aliceblue;
+    margin: auto;
+    box-shadow: 2px 4px 10px;
+}
+img{
+    width: 100%;
+    margin: auto;
+    border-radius: 30px;
+    padding: 20px;
+    border: 2px solid black;
+}
+p{
+    margin: 20px;
+    text-align: justify;
+}
+ol, ul{
+    margin: 35px;
+}
